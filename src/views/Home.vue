@@ -74,7 +74,7 @@
       <v-flex xs8>
         <h2 class="text-xs-center mt-2">[合作洽談]</h2>
         <p class="subheading text-xs-center">
-          如果你有開設APCS實體課程的需求(6人以上)，
+          如果你有開設APCS實體課程的需求(6人以上)
           <br />歡迎來信到topcodeschool@gmail.com <br />合作地區:台南東區
         </p>
       </v-flex>
