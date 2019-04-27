@@ -8,10 +8,10 @@
           <span class="font-weight-bold">接棒程式設計學校</span
           >致力於提供國小/國中/高中學生豐富的程式學習資源
           <br />讓有志於就讀資訊相關科系的學生能更有效率的學習
-          <br />如果您對於教材有任何問題，歡迎到以下連結發問
-          <a href="https://app2.sli.do/event/nwa4lpa7" target="_blank"
+          <br />如果您對於教材有任何問題，歡迎寄信到 topcodeschool@gmail.com
+          <!-- <a href="https://app2.sli.do/event/nwa4lpa7" target="_blank"
             >sli.do</a
-          >
+          >-->
         </p>
         <v-divider></v-divider>
       </v-flex>
