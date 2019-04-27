@@ -12,6 +12,6 @@
 
 ## 合作洽談
 
-如果你有開設 APCS 實體課程的需求(6 人以上)，
-歡迎來信到 topcodeschool@gmail.com
-合作地區:台南東區
+如果你有開設 APCS 實體課程的需求(6 人以上)  
+歡迎來信到 topcodeschool@gmail.com  
+合作地區:台南東區  
