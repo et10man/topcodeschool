@@ -9,8 +9,6 @@
       </v-flex>
       <v-flex xs2></v-flex>
       <v-flex xs3>
-        <!-- (A)  1  (B)  4 (C)  3 (D)  33  -->
-
         <v-radio-group v-model="answerGroup">
           <v-radio label="1" color="error" value="error_1"></v-radio>
           <v-radio label="4" color="success" value="success_2"></v-radio>
