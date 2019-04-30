@@ -17,19 +17,18 @@
         </v-radio-group>
       </v-flex>
       <v-flex xs7>
-        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">{{
-          bShowAnswer ? "隱藏詳解" : "顯示詳解"
-        }}</v-btn>
+        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">
+          {{ bShowAnswer ? "隱藏詳解" : "顯示詳解" }}
+        </v-btn>
         <div v-if="bShowAnswer">
           <h2>解答:</h2>
-          <p class="subheading">
-            <span>第一次是進入 sum = sum + i; 共1000次</span>
-            <br />第二次是進入 sum = sum + i; 共1000*2/3 = 666次
-            <br />第三次是進入 sum = sum + i; 共666*2/3 = 444次
-            <br />第四次是進入 sum = sum + i; 共444*2/3 = 296次
-            <br />第五次是進入 sum = sum + i; 共296*2/3 = 197次
-            <br />
-          </p>
+          <div class="subheading">
+            <div v-for="(count, index) in counts" :key="index">
+              第{{ index + 1 }}次是進入 sum = sum + i; 共{{ count }}次
+            </div>
+            <div>共{{ counts.reduce((a, b) => a + b, 0) }}次</div>
+            <div>故answer = 3000</div>
+          </div>
         </div>
       </v-flex>
     </v-layout>
@@ -45,7 +44,8 @@ export default {
         code: require("@/assets/problems/concept/2016-03-05/5_code.png")
       },
       answerGroup: [],
-      bShowAnswer: false
+      bShowAnswer: false,
+      counts: [1000, 666, 444, 296, 197, 131, 87, 58, 38, 25, 16, 10, 6, 4, 2]
     };
   }
 };

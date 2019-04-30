@@ -87,6 +87,13 @@ export default {
         );
       }
     }
+  },
+  created: function() {
+    this.$router.push(
+      `/courses/apcs/archive/concept/${this.current_category_text}/${
+        this.current_problem
+      }`
+    );
   }
 };
 </script>
