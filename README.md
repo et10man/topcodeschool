@@ -1,5 +1,7 @@
 # topcodeshcool
 
+website: https://et10man.github.io/topcodeschool/
+
 ## 成立目標
 
 接棒程式設計學校致力於提供國小/國中/高中學生豐富的程式學習資源  
