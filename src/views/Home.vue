@@ -3,23 +3,28 @@
     <v-layout row wrap justify-center>
       <v-flex xs2></v-flex>
       <v-flex xs8>
-        <h2 class="text-xs-center">[成立目標]</h2>
-        <p class="subheading text-xs-center">
-          <span class="font-weight-bold">接棒程式設計學校</span
-          >致力於提供國小/國中/高中學生豐富的程式學習資源
-          <br />讓有志於就讀資訊相關科系的學生能更有效率的學習
-          <br />如果您對於教材有任何問題，歡迎寄信到 topcodeschool@gmail.com
-          <!-- <a href="https://app2.sli.do/event/nwa4lpa7" target="_blank"
-            >sli.do</a
-          >-->
-        </p>
-        <v-divider></v-divider>
+        <div class="text-xs-center subheading">
+          <div>
+            <v-icon>create</v-icon>
+            <span class="title">成立目標</span>
+          </div>
+          <div>
+            <span class="font-weight-bold">接棒程式設計學校</span>
+          </div>
+          <div>讓有志於就讀資訊相關科系的學生能更有效率的學習</div>
+          <div>如果您對於教材有任何問題，歡迎</div>
+          <div>寄信到 topcodeschool@gmail.com</div>
+        </div>
+        <v-divider class="mt-2"></v-divider>
       </v-flex>
       <v-flex xs2></v-flex>
       <v-flex xs1></v-flex>
       <v-flex xs10>
-        <h2 class="text-xs-center mt-2">[接棒團隊]</h2>
-        <v-card>
+        <div class="text-xs-center mt-2">
+          <v-icon>create</v-icon>
+          <span class="title">接棒團隊</span>
+        </div>
+        <v-card class="mt-2">
           <v-container fluid grid-list-md>
             <v-layout row wrap>
               <v-flex
@@ -67,16 +72,20 @@
             </v-layout>
           </v-container>
         </v-card>
-        <v-divider></v-divider>
+        <v-divider class="mt-2"></v-divider>
       </v-flex>
       <v-flex xs1></v-flex>
       <v-flex xs2></v-flex>
       <v-flex xs8>
-        <h2 class="text-xs-center mt-2">[合作洽談]</h2>
-        <p class="subheading text-xs-center">
-          如果你有開設APCS實體課程的需求(6人以上)
-          <br />歡迎來信到topcodeschool@gmail.com <br />合作地區:台南東區
-        </p>
+        <div class="text-xs-center subheading">
+          <div class="mt-2">
+            <v-icon>create</v-icon>
+            <span class="title">合作洽談</span>
+          </div>
+          <div>如果你有開設APCS實體課程的需求(6人以上)</div>
+          <div>歡迎來信到topcodeschool@gmail.com</div>
+          <div>合作地區:台南東區</div>
+        </div>
       </v-flex>
       <v-flex xs2></v-flex>
     </v-layout>
