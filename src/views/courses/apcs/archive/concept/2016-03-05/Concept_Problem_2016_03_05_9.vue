@@ -32,7 +32,7 @@
             <div>i=2時: c=1</div>
             <div>i=3時: c=1+(15%14)=2</div>
             <div>i=4時: c=2+(20%18)=4</div>
-            <div>故answer = 4</div>
+            <div>故answer=4</div>
           </div>
         </div>
       </v-flex>
