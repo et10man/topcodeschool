@@ -15,12 +15,12 @@
           <div>如果您對於教材有任何問題，歡迎</div>
           <div>寄信到 topcodeschool@gmail.com</div>
         </div>
-        <v-divider class="mt-2"></v-divider>
       </v-flex>
       <v-flex xs2></v-flex>
       <v-flex xs1></v-flex>
       <v-flex xs10>
-        <div class="text-xs-center mt-2">
+        <v-divider class="mt-2"></v-divider>
+        <div class="text-xs-center subheading mt-2">
           <v-icon>create</v-icon>
           <span class="title">接棒團隊</span>
         </div>
@@ -72,7 +72,7 @@
             </v-layout>
           </v-container>
         </v-card>
-        <v-divider class="mt-2"></v-divider>
+        <v-divider class="mt-4"></v-divider>
       </v-flex>
       <v-flex xs1></v-flex>
       <v-flex xs2></v-flex>
