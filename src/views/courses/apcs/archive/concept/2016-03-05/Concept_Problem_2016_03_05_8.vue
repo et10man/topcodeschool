@@ -21,7 +21,7 @@
             value="error_2"
           ></v-radio>
           <v-radio
-            label=" (a)b = a + b (b)b"
+            label="(a)b = a + b (b)b"
             color="success"
             value="success_3"
           ></v-radio>
@@ -33,9 +33,9 @@
         </v-radio-group>
       </v-flex>
       <v-flex xs7>
-        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">
-          {{ bShowAnswer ? "隱藏詳解" : "顯示詳解" }}
-        </v-btn>
+        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">{{
+          bShowAnswer ? "隱藏詳解" : "顯示詳解"
+        }}</v-btn>
         <div v-if="bShowAnswer">
           <h2>解答:</h2>
           <div class="subheading">
