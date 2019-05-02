@@ -48,12 +48,9 @@
             <div>印出2</div>
             <div>call f2(4)</div>
             <div>印出4</div>
-            <div>in f1(2)</div>
-            <div>印出2</div>
-            <div>in f2(3)</div>
-            <div>印出3</div>
-            <div>in f1(1)</div>
-            <div>印出1</div>
+            <div>in f1(2) 印出2</div>
+            <div>in f2(3) 印出3</div>
+            <div>in f1(1) 印出1</div>
             <div>f2一共被呼叫三次=>更正為兩次</div>
           </div>
         </div>
