@@ -85,6 +85,16 @@
           <div>如果你有開設APCS實體課程的需求(6人以上)</div>
           <div>歡迎來信到topcodeschool@gmail.com</div>
           <div>合作地區:台南東區</div>
+          <div
+            class="fb-like"
+            data-href="https://et10man.github.io/topcodeschool/"
+            data-width
+            data-layout="button_count"
+            data-action="like"
+            data-size="large"
+            data-show-faces="true"
+            data-share="true"
+          ></div>
         </div>
       </v-flex>
       <v-flex xs2></v-flex>
