@@ -87,7 +87,7 @@
           <div>合作地區:台南東區</div>
           <div
             class="fb-like"
-            data-href="https://et10man.github.io/topcodeschool/"
+            data-href="https://et10man.github.io/topcodeschool/#/"
             data-width
             data-layout="button_count"
             data-action="like"

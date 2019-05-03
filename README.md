@@ -1,6 +1,6 @@
 # topcodeshcool
 
-website: https://et10man.github.io/topcodeschool/
+website: https://et10man.github.io/topcodeschool/#/
 
 ## 成立目標
 
