@@ -10,7 +10,6 @@
       <v-flex xs2></v-flex>
       <v-flex xs4>
         <v-radio-group v-model="answerGroup">
-          <!-- (A)   (B)   (C)   (D)   -->
           <v-radio
             label="((2*a)+2) * G(a, x - 1)"
             color="success"
@@ -34,9 +33,9 @@
         </v-radio-group>
       </v-flex>
       <v-flex xs8>
-        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">{{
-          bShowAnswer ? "隱藏詳解" : "顯示詳解"
-        }}</v-btn>
+        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">
+          {{ bShowAnswer ? "隱藏詳解" : "顯示詳解" }}
+        </v-btn>
         <div v-if="bShowAnswer">
           <h2>解答:</h2>
           <div class="subheading">
