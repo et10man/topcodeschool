@@ -17,9 +17,9 @@
         </v-radio-group>
       </v-flex>
       <v-flex xs6>
-        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">{{
-          bShowAnswer ? "隱藏詳解" : "顯示詳解"
-        }}</v-btn>
+        <v-btn color="info" @click="bShowAnswer = !bShowAnswer">
+          {{ bShowAnswer ? "隱藏詳解" : "顯示詳解" }}
+        </v-btn>
         <div v-if="bShowAnswer">
           <h2>解答:</h2>
           <div class="subheading">
